@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=PT+Mono&display=swap");
+
+body {
+  margin: 0;
+  font-family: "PT Mono", monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(5, 25, 98));
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Resume main background */
+.resume-bg {
+  background: radial-gradient(
+    1200px circle at top left,
+    #16233f 0%,
+    #0b1220 45%,
+    #070c18 100%
+  );
+}
+
+/* Left card */
+.profile-card {
+  background: linear-gradient(180deg, #1b263d 0%, #131d30 100%);
+}
+
+/* Right content card */
+.resume-content {
+  background: linear-gradient(180deg, #0f1a30 0%, #0b1220 100%);
+}
+
+/* Bullet spacing */
+.resume-content ul li {
+  padding-left: 6px;
+}
+
+/* Headings */
+.resume-title {
+  letter-spacing: 0.4px;
+}
+
+/* Smooth hover */
+.download-btn:hover {
+  transform: translateY(-1px);
+}
