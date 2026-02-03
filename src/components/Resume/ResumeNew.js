@@ -378,7 +378,7 @@ function ResumeNew() {
               <a href="https://www.linkedin.com/in/fenil-limbachiya-b91932233/" target="_blank">🔗 LinkedIn</a>
               <a href="https://github.com/fenilh" target="_blank">🔗 GitHub</a>
             </div>
-
+{/* 
             <a
   href="/Fenil_Resume.pdf"
   download="Fenil_Limbachiya_Resume.pdf"
@@ -386,10 +386,13 @@ function ResumeNew() {
   <button className="btn download">
     ⬇ Download Resume (PDF)
   </button>
-</a>
-
-<a href="Fenil_Resume.pdf" target="_blank" rel="noreferrer">
-  Download Resume
+</a> */}
+<a 
+     
+ href="Fenil_Resume.pdf" target="_blank" rel="noreferrer">
+ <button className="btn download">
+  ⬇ Download Resume (PDF)
+   </button>
 </a>
 
 
