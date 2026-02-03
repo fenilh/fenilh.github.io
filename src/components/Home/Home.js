@@ -102,16 +102,7 @@ function Home() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li> */}
+             
             </ul>
           </Col>
         </Row>
