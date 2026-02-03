@@ -388,6 +388,11 @@ function ResumeNew() {
   </button>
 </a>
 
+<a href="Fenil_Resume.pdf" target="_blank" rel="noreferrer">
+  Download Resume
+</a>
+
+
 
             <button className="btn toggle" onClick={() => setDarkMode(!darkMode)}>
               {darkMode ? "🌞 Light Mode" : "🌙 Dark Mode"}
