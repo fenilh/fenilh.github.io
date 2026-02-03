@@ -193,13 +193,15 @@ function ResumeNew() {
             </div>
  
 <a 
-     
- href="Fenil_Resume.pdf" target="_blank" rel="noreferrer">
- <button className="btn download">
-  ⬇ Download Resume (PDF)
-   </button>
+  href="Fenil_Resume.pdf" 
+  target="_blank" 
+  rel="noreferrer" 
+  download="Fenil_Resume.pdf"
+>
+  <button className="btn download">
+    ⬇ Download Resume (PDF)
+  </button>
 </a>
-
 
 
             <button className="btn toggle" onClick={() => setDarkMode(!darkMode)}>
