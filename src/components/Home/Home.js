@@ -1,7 +1,7 @@
  
 import { Container, Row, Col } from "react-bootstrap";
  
-import imggg from "../../Assets/imggg.jpeg";
+import ff from "../../Assets/ff.jpeg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -40,7 +40,7 @@ function Home() {
 
        <Col md={5} style={{ paddingBottom: 20, textAlign: "center" }}>
   <img
-    src={imggg}
+    src={ff}
     alt="home pic"
     style={{
       maxWidth: "100%",
@@ -52,7 +52,7 @@ function Home() {
       boxShadow:
         "0 20px 40px rgba(0, 0, 0, 0.5), 0 0 0 8px rgba(255, 255, 255, 0.03)",
 
-      transform: "scaleX(-1)",        // flip image horizontally
+      // transform: "scaleX(-1)",        // flip image horizontally
       transition: "all 0.4s ease",
     }}
   />
