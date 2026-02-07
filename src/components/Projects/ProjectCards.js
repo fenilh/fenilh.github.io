@@ -2,7 +2,7 @@
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
-import BK from "../../Assets/BK.jpg";
+ 
  
 
 function ProjectCards(props) {

@@ -1,6 +1,6 @@
 
 import React, { useState } from "react";
-import { Helmet } from "react-helmet";
+ import {Helmet} from "react-helmet";
 import { motion } from "framer-motion";
 import imggg from "../../Assets/imggg.jpeg";
 
@@ -16,6 +16,10 @@ function ResumeNew() {
           content="Fenil Limbachiya - Frontend React Developer Resume"
         />
       </Helmet>
+
+
+
+
 
       <style>{`
         * {
