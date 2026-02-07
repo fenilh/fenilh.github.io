@@ -192,8 +192,8 @@ function ResumeNew() {
               <p>📍 Ahmedabad, Gujarat</p>
               <p>📞 +91 9512622021</p>
               <p>✉️ fenilh2002@gmail.com</p>
-              <a href="https://www.linkedin.com/in/fenil-limbachiya-b91932233/" target="_blank"  rel="noopener">🔗 LinkedIn</a>
-              <a href="https://github.com/fenilh" target="_blank"  rel="noopener">🔗 GitHub</a>
+              <a href="https://www.linkedin.com/in/fenil-limbachiya-b91932233/" target="_blank"    rel="noopener noreferrer">🔗 LinkedIn</a>
+              <a href="https://github.com/fenilh" target="_blank"    rel="noopener noreferrer">🔗 GitHub</a>
             </div>
  
 <a 
