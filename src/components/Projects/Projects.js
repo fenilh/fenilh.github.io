@@ -2,6 +2,8 @@
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import BK from "../../Assets/BK.jpg";
+import EQ from "../../Assets/EQ.jpg";
  
 function Projects() {
   return (
@@ -17,7 +19,8 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
         
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card-view">
+          <img src={BK} className="img-fluid" alt="card-img"/>
             <ProjectCard
               isBlog={false}
               title="Bakery Management System "
@@ -26,14 +29,14 @@ day-to-day operations with centralized inventory, sales, and production manageme
             
             />
           </Col>
-
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card-view">
+ <img src={EQ} className="img-fluid" alt="card-img"/>
             <ProjectCard
   
               isBlog={false}
               title="E-QMS "
               description="Ensured usability, scalability, and modular structure across all major quality management modules with
-clean component architecture."
+clean component architecture  and also easly accessable ."
                    
             />
           </Col>
